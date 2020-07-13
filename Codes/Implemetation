@@ -1,0 +1,54 @@
+
+Executions of The Codes : 
+-------------------------
+
+
+DQN :
+
+(a) 1) File name : Observer_1.py
+    2) open terminal and run : python Observer_1.py
+    3) Give the enviorment name whose observations you want to see
+
+(b) For MountainCar-v0 :
+
+    1) File name : mountaincar.py
+    2) open terminal and run : python mountaincar.py
+    3) It would take roughly around 4-5 hours to train and needs around 1000 episodes.
+
+    For Pong-v0 :
+ 
+    1) File name : pong.py
+    2) open termional and run python pong.py
+    3) It would take a huge amount of time to run. I was only run it to 10000 episodes roughly and till then it wasn't trained properly.
+    
+    *All the graphs are attached in the report. 				
+
+(c) *Grpah of comparison is attached in report.
+
+(d) 1) File name : mcar_ddqn.py
+    2) open terminal and run : python 2.py
+----------------------------------------------------------------------------------------------------
+
+Policy Gradient :
+
+(a) 1) File name : Observer_2.py
+    2) open terminal and run : python Observer_2.py
+    3) Give the enviorment name whose observations you want to see
+
+(b) 1) File name : policy.py
+    2) open terminal and run : python policy.py
+    3) On executing five variables will be asked :
+	i) Enviorment : Enter your choice of enviorment either CartPole-v0 or LunarLander-v2
+       ii) Iterations : How many iterations you need to perform.CartPole trains in around 1000-2000.Lunar Lander takes lot of around 10000 iterations.
+      iii) Discount Factor : i.e Gamma between 0 and 1
+       iv) Batch Size : Size of batches which train together
+	v) Experiment type : Press   rtg : rewards-to-go
+				     dsa : advantage-normalisation
+				     r   : simple rewards	 	 
+
+	*All the graphs are attached in the report.
+
+(c) *Graph of comparison is attached in report.
+ 
+
+
